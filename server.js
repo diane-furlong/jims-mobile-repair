@@ -8,5 +8,5 @@ app.get('*', (request, response) => {
     response.sendFile(path.join(__dirname, 'client/build', 'index.html'))
 })
 
-const port = 3001
-app.listen(port, () => console.log(`Server up and running on port ${port}`))
+const PORT = process.env.PORT || 3001
+app.listen(PORT, () => console.log(`Server up and running on port ${PORT}`))
