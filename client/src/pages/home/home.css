@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.homeLists {
+    display: block;
+    margin-bottom: 20%;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.specialize {
+    position:relative;
+    display: block;
+    float: left;
+}
+
+.fixExamples {
+    position:relative;
+    display: block;
+    float: right;
+}
+
+.repairContact {
+    text-align: center;
+    margin-left: auto;
+    margin-top: 3%;
+}
+
+.repairContactBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

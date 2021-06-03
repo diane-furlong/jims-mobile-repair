@@ -1,0 +1,27 @@
+{
+  "name": "jimsrepair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "server": "nodemon server.js",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": " \"npm run client\"",
+    "client": "cd client && npm run start",
+    "build": "cd client && npm install && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react-bootstrap": "^1.6.0",
+    "react-router-dom": "^5.2.0"
+  }
+}
