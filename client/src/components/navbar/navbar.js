@@ -30,7 +30,7 @@ const Navb = () => {
             <Nav>
                 <Navbar.Collapse>
                     <Nav.Link href="/mywork" style={{ transition: '1.5s ease', color: navBackground ? 'black' : 'white'}}>My Work</Nav.Link>
-                    <Nav.Link href="#" style={{ transition: '1.5s ease', color: navBackground ? 'black' : 'white'}}>Contact</Nav.Link>
+                    <Nav.Link href="/contact" style={{ transition: '1.5s ease', color: navBackground ? 'black' : 'white'}}>Contact</Nav.Link>
                 </Navbar.Collapse>
             </Nav>
         </Navbar>
