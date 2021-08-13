@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import {Col, Row} from 'react-bootstrap'
 
 const home = () => {
     return (
@@ -11,16 +12,16 @@ const home = () => {
             <h4 className="intro">I can fix just about anything.</h4>
             <br/>
             <br/>
-            <div className="homeLists">
-                <h5 className="specialize">
-                    I specialize in:
+            <Row className="homeLists">
+                <Col md={2} className="specialize">
+                    <h5>I specialize in:
                     <ul>
                         <li>Engine Repair</li>
                         <li>Welding</li>
-                    </ul>
-                </h5>
-                <h5 className="fixExamples">
-                    I can fix your:
+                    </ul></h5>
+                </Col>
+                <Col md={3} className="fixExamples">
+                    <h5>I can fix your:
                     <ul>
                         <li>Car</li>
                         <li>Watercraft</li>
@@ -28,9 +29,9 @@ const home = () => {
                         <li>Snowblower</li>
                         <li>Snow Plow</li>
                         <li>And a variety of other engines. <br/> To ask about a specific item, <a href="/contact">contact me</a>!</li>
-                    </ul>
-                </h5>
-            </div>
+                    </ul></h5>
+                </Col>
+            </Row>
             <br/>
             <h5 className="repairContact">
             What can I repair for you?
@@ -38,9 +39,6 @@ const home = () => {
             <button className="repairContactBtn" href="/contact">
                 Contact Me
             </button>
-            <br/>
-            <br/>
-            <br/>
             <br/>
             <br/>
             <br/>

@@ -14,21 +14,20 @@
 }
 
 .specialize {
-    position:relative;
-    display: block;
-    float: left;
+    width: 100%;
+    margin-left: 37%;
+    /* background: red; */
 }
 
 .fixExamples {
-    position:relative;
-    display: block;
-    float: right;
+    width: 100%;
+    /* margin-right: 25%; */
+    /* background: blue; */
 }
 
 .repairContact {
     text-align: center;
-    margin-left: auto;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .repairContactBtn {
