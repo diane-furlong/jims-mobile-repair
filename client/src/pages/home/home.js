@@ -12,8 +12,9 @@ const home = () => {
             <h4 className="intro">I can fix just about anything.</h4>
             <br/>
             <br/>
-            <Container>
+            <Container fluid>
                 <Row className="homeLists">
+                    <Col sm={1}></Col>
                     <Col md={5} className="specialize">
                         <h5>I specialize in:
                         <ul>
@@ -32,6 +33,7 @@ const home = () => {
                             <li>And a variety of other engines. <br/> To ask about a specific item, <a href="/contact">contact me</a>!</li>
                         </ul></h5>
                     </Col>
+                    <Col sm={1}></Col>
                 </Row>
             </Container>
             <br/>
