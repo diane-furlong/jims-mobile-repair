@@ -12,17 +12,16 @@ const home = () => {
             <h4 className="intro">I can fix just about anything.</h4>
             <br/>
             <br/>
-            <Container fluid>
+            <Container>
                 <Row className="homeLists">
-                    <Col sm={1} className="space1">vsf</Col>
-                    <Col md={5} className="specialize">
+                    <Col className="specialize">
                         <h5>I specialize in:
                         <ul>
                             <li>Engine Repair</li>
                             <li>Welding</li>
                         </ul></h5>
                     </Col>
-                    <Col md={5} className="fixExamples">
+                    <Col className="fixExamples">
                         <h5>I can fix your:
                         <ul>
                             <li>Car</li>
@@ -33,7 +32,6 @@ const home = () => {
                             <li>And a variety of other engines. <br/> To ask about a specific item, <a href="/contact">contact me</a>!</li>
                         </ul></h5>
                     </Col>
-                    <Col sm={1} className="space1">sef</Col>
                 </Row>
             </Container>
             <br/>
