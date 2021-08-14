@@ -39,16 +39,6 @@ const home = () => {
             <button className="repairContactBtn" href="/contact">
                 Contact Me
             </button>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
         </div>
     )
 }
