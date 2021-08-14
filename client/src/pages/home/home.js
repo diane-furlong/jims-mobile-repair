@@ -13,14 +13,14 @@ const home = () => {
             <br/>
             <br/>
             <Row className="homeLists">
-                <Col md={2} className="specialize">
+                <Col md={5} className="specialize">
                     <h5>I specialize in:
                     <ul>
                         <li>Engine Repair</li>
                         <li>Welding</li>
                     </ul></h5>
                 </Col>
-                <Col md={3} className="fixExamples">
+                <Col md={5} className="fixExamples">
                     <h5>I can fix your:
                     <ul>
                         <li>Car</li>
