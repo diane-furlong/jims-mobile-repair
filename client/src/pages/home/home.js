@@ -1,6 +1,8 @@
 import React from 'react'
 import './home.css'
 import {Col, Row, Container} from 'react-bootstrap'
+import Image from '../../images/IMG_1858.JPG' 
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const home = () => {
     return (
@@ -11,17 +13,18 @@ const home = () => {
             <h3 className="intro">Hi, I'm Jim Summers.</h3>
             <h4 className="intro">I can fix just about anything.</h4>
             <br/>
+            <img src={Image} alt="Jim Summers" className="profPhoto"></img>
             <br/>
             <Container>
-                <Row className="homeLists">
-                    <Col sm={4} className="specialize">
+                <Row className="row homeLists">
+                    <Col sm={5} className="col-7 specialize">
                         <h5>I specialize in:
                         <ul>
                             <li>Engine Repair</li>
                             <li>Welding</li>
                         </ul></h5>
                     </Col>
-                    <Col sm={8} className="fixExamples">
+                    <Col sm={7} className="col-5 fixExamples">
                         <h5>I can fix your:
                         <ul>
                             <li>Car</li>
@@ -34,7 +37,6 @@ const home = () => {
                     </Col>
                 </Row>
             </Container>
-            <br/>
             <h5 className="repairContact">
             What can I repair for you?
             </h5>

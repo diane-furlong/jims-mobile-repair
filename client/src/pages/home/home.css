@@ -8,19 +8,25 @@
     text-align: center;
 }
 
-.homeLists {
+.profPhoto {
+    width: 80%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homeLists {
     margin-bottom: 10%;
 }
 
 .specialize {
-    width: 100%;
+    /* width: 100%; */
     /* margin-left: 10%; */
     background: red;
 }
 
 .fixExamples {
-    width: 100%;
+    /* width: 100%; */
     /* margin-right: 25%; */
     background: blue;
 }
@@ -34,8 +40,4 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.space1 {
-    background: purple;
 }
