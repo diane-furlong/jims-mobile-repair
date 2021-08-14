@@ -1,10 +1,10 @@
 import React from 'react'
 import './home.css'
-import {Col, Row} from 'react-bootstrap'
+import {Col, Row, Container} from 'react-bootstrap'
 
 const home = () => {
     return (
-        <div className="mainDiv">
+        <Container className="mainDiv">
             <h1 className="title">Jim's Mobile Repair</h1>
             <h3 className="title">Stay put- I'll come to you!</h3>
             <br/>
@@ -39,7 +39,7 @@ const home = () => {
             <button className="repairContactBtn" href="/contact">
                 Contact Me
             </button>
-        </div>
+        </Container>
     )
 }
 
